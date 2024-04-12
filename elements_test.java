@@ -4,7 +4,7 @@ public class elements_test {
     private static int methodCount; // record how many time infinite mode's method run
     private static int streak; // record user's streak
     private static int count; // record how many elements user practiced
-    private static int longestStreak = -1;
+    private static int longestStreak = 0;
     private static int correct = 0;
     private static Scanner mysc = new Scanner(System.in);
     private static String[] symbolArr = new String[] { "H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg",
